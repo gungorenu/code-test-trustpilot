@@ -9,7 +9,7 @@ every word is an anagram for the app, those anagrams will be identified by an in
 difficulty of a phrase depends on word count, 2 word is easy, 3 word is medium, 4 word is hard and so on...
 some code is hardcoded for performance, especially in bit calculation, not required though
 
-##3 word algorithm:
+## 3 word algorithm:
 * words are A B C
 * we pick A first from word anagram 'WordCode (int)' list with a power of min 6, p(X) means length of X (18/3 so one word must be at least 6 characters)
 * we pick B for every A and form a small tree with one root (A) and possible leaves (B), we use WordCode, the integer representation of word anagrams
